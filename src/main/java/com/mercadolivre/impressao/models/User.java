@@ -16,4 +16,8 @@ public class User {
         this.habilidades = habilidades;
     }
 
+    public String toString() {
+        return "Nome: " + nome + " " + sobrenome + "\nIdade: " + idade + "\nHabilidades: " + habilidades;
+    }
+
 }
